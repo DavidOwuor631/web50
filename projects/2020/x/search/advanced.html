@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search Clone</title>
+    <link rel="stylesheet" href="advanced.css">
+    <a href="index.html" class="google">Search</a>
+</head>
+<body>
+    <div class="header">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
+    </div>
+    <h1>Advanced Search</h1>
+    <hr width="100%" size="0.1" style="color:#ddd">
+    <div class="search-container">
+        <h4 class="find">Find pages with...</h4>
+        <form action="https://www.google.com/search" method="get" target="_blank">
+            <div class="form-group">
+                <label for="query"style="white-space: nowrap;" >all these words</label> <input type="text" id="query" name="q" style="margin-left: 112px; padding:7px;" >
+            </div>
+            <div class="form-group">
+                <label for="exact-phrase" style="white-space: nowrap; " > the exact phrase:</label>
+                <input type="text" id="exact-phrase" name="as_epq"style="margin-left: 100px; padding: 7px;"  >
+            </div>
+            <div class="form-group">
+                <label for="any-words" style="white-space: nowrap; ">any of these words:</label>   
+                <input type="text" id="any-words" name="as_oq" style="margin-left: 88px; padding: 7px;   "  >
+            </div>
+            <div class="form-group">
+                <label for="none-words"style="white-space: nowrap;" >none of these words:</label> 
+                <input type="text" id="none-words" name="as_eq"  style="margin-left: 79px; padding: 7px;  ">
+            </div>
+            <div class="form-group button-group">
+                <button type="submit">Advanced Search</button>
+            </div>
+            </form>
+    </div>
+</body>
+</html>

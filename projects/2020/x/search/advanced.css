@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header {
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom:30px;
+}
+
+.header img {
+    width: 90px;
+}
+.google{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    color: #2392ed;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease; 
+}
+
+.search-container {
+    background-color: white;
+    padding: 4px;
+    border-radius: 8px;
+    width: 500px;
+    margin-top: 0px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight:100;
+    color:#D32F2F;
+    margin-bottom: 15px;
+    margin-left:40px;
+    border-bottom: 0px;
+    
+}
+
+hr {
+    border-top: 1px solid #ddd;
+  }
+.find{
+    color:#5f6368 ;
+    padding:10px;
+    margin-left:30px;
+    margin-bottom: 5px;
+    font-weight:100;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    margin-left:40px;
+    width: 850px;
+    height:30px;
+    box-shadow: #2568d5;
+}
+input[type="text"] {
+    border: none; /* Remove the default border */
+  }
+  
+  input[type="text"]:focus {
+    outline: none; /* Remove the default outline */
+    box-shadow: -1px -1px 1px rgba(210,227,254,255), 0.5px 0.5px 1px rgba(152,185,240,255);
+    border: 1px solid rgb(148,188,252); /* Add a custom border when focused */
+  }
+
+label {
+    font-size: 14px;
+    color: #5f6368;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content:flex-end ;
+    margin-left: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: #4285f4;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color: #357ae8;
+}
